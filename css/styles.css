@@ -1,12 +1,19 @@
 /* -- Cores a usar: preto, roxo, rosa, azul. -- */
 
+/*      rosa framboesa - #8d0a5f                */
+/*      roxo amora -     #2b1f3f                */
+
 /* -------------------------------------------- */
 
 
-/* -- CSS Grid 101: A hope is born -- */
+/* -- CSS Grid 101: A hope is born ------------
+----------------------------------------------- */
 * {
     box-sizing: border-box;
 }
+
+/* -- Basic styles ----------------------------
+----------------------------------------------- */
 
 body{
     text-align: center;
@@ -21,7 +28,6 @@ body{
     text-align: center;
     float: left;
     padding: 15px;
-    /*border: 1px solid red;*/
 }
 
 .logo img{
@@ -34,7 +40,6 @@ body{
     text-align: center;
     float: left;
     padding: 15px;
-    /*border: 1px solid red;*/
 }
 
 .main {
@@ -47,7 +52,25 @@ body{
     text-align: center;
     float: left;
     padding: 15px;
-    /*border: 1px solid red;*/
 }
 
-/* -- RWD (Conteúdo fluído) -- */
+/* -- Lettering -------------------------------
+----------------------------------------------- */
+
+
+
+/* -- Links -----------------------------------
+----------------------------------------------- */
+a{
+    color: black;
+    /*font-family: a escolher;*/
+    text-decoration: none;
+}
+
+a:hover{
+    color: #8d0a5f;
+    text-decoration: underline;
+}
+
+/* -- RWD: Conteúdo fluído --------------------
+----------------------------------------------- */
