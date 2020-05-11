@@ -40,8 +40,12 @@ body{
     padding: 15px;
 }
 
-.main {
-    /*border: 1px solid red;*/
+.warp_drive {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    overflow: hidden;
+    border: 1px solid red;
 }
 
 
