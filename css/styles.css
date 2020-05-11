@@ -26,7 +26,7 @@ body{
 .logo {
     width: 100%;
     float: left;
-    padding: 15px;
+    padding: 45px 15px 15px 15px;
 }
 
 .logo img{
@@ -64,7 +64,7 @@ body{
 ----------------------------------------------- */
 a{
     color: black;
-    /*font-family: a escolher;*/
+    font-family: 'Space Mono', monospace;
     text-decoration: none;
 }
 
