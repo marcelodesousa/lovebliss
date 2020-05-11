@@ -1,0 +1,53 @@
+/* -- Cores a usar: preto, roxo, rosa, azul. -- */
+
+/* -------------------------------------------- */
+
+
+/* -- CSS Grid 101: A hope is born -- */
+* {
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+    float: left;
+    padding: 15px;
+    /*border: 1px solid red;*/
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.menu {
+    width: 100%;
+    text-align: center;
+    float: left;
+    padding: 15px;
+    /*border: 1px solid red;*/
+}
+
+.main {
+    /*border: 1px solid red;*/
+}
+
+
+.footer {
+    width: 100%;
+    text-align: center;
+    float: left;
+    padding: 15px;
+    /*border: 1px solid red;*/
+}
+
+/* -- RWD (Conteúdo fluído) -- */
