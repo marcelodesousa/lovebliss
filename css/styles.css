@@ -79,9 +79,24 @@ body{
 ----------------------------------------------- */
 
 .projects {
-    text-align:left;
+    text-align: left;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+.thumbnails {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.thumbnails img {
+    width: 200px;
+    height: 200px;
+}
+
+.thumb_titles {
+    text-align:center;
 }
 
 /* -- Lettering -------------------------------
