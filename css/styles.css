@@ -119,8 +119,13 @@ h3 {
 ----------------------------------------------- */
 a{
     color: black;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
+}
+
+.about a{
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 a:hover{
