@@ -29,7 +29,6 @@ body{
 
 .logo {
     width: 100%;
-    float: left;
     padding: 45px 15px 15px 15px;
 }
 
@@ -40,8 +39,6 @@ body{
 
 .menu {
     width: 100%;
-    float: left;
-    padding: 15px;
 }
 
 .main {
@@ -105,7 +102,6 @@ html{
 
 h3 {
     font-family: 'Roboto', sans-serif;
-    color: #2b1f3f;
 }
 
 .about {
