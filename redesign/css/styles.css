@@ -1,0 +1,76 @@
+/* -- Cores a usar: preto, roxo, rosa, azul. -- */
+
+/*      rosa framboesa - #8d0a5f                */
+/*      roxo amora -     #2b1f3f                */
+
+/* -------------------------------------------- */
+
+
+/* -- CSS Grid 101: A hope is born ------------
+----------------------------------------------- */
+
+.grid {
+    display: grid;
+  }
+
+/* -- Basic styles ----------------------------
+----------------------------------------------- */
+
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+
+.footer img{
+    width: 30px;
+    height: 30px;
+}
+
+/* -- Portfolio styles ------------------------
+----------------------------------------------- */
+
+
+/* -- Lettering -------------------------------
+----------------------------------------------- */
+
+html{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.about {
+    text-align:left;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+::selection {
+    background-color: #8d0a5f;
+    color: white;
+}
+
+
+/* -- Links -----------------------------------
+----------------------------------------------- */
+a{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.about a{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: #8d0a5f;
+    text-decoration: underline;
+}
+
+/* -- RWD: Conteúdo fluído --------------------
+----------------------------------------------- */
