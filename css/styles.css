@@ -134,5 +134,9 @@ a:hover{
     text-decoration: underline;
 }
 
-/* -- RWD: Conteúdo fluído --------------------
+/* -- Gradientes --------------------
 ----------------------------------------------- */
+.gradient {
+    background: rgb(141,10,95);
+    background: radial-gradient(circle, rgba(141,10,95,1) 0%, rgba(201,140,180,1) 49%, rgba(255,255,255,1) 100%); 
+}
