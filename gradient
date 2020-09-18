@@ -1,0 +1,69 @@
+<!--heyo! -->
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- basic webpage setup -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="marcelo sousa">
+    
+    <!-- description -->
+    <title>marcelo ✹ digital wanderer</title>
+    <meta name="description" content="media artist creating audiovisual communication & multimedia">
+    <meta name="keywords" content="marcelo sousa, sound, video, audiovisuals, field recording, soundscapes, digital communication, multimedia, media art">
+    <link rel='icon' href='favicon.ico' type='image/x-icon/'>
+    
+    <!-- CSS -->
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"> 
+
+    <!-- p5 js script-->
+    <script src="scripts/Starfield/p5.min.js"></script>
+    <script src="scripts/Starfield/p5.dom.min.js"></script>
+    <script src="scripts/Starfield/p5.sound.min.js"></script>
+
+</head>
+<body>
+    
+    <div class="main">
+
+        <div class="logo">
+            <a href="/">
+                <img src="images/logo_pessoal.png" alt="marcelo">
+            </a> <!-- substituir pelo meu logo animado qd tiver -->
+        </div>
+        
+        <div class="menu">
+            <a href="bio">bio</a>
+            —
+            <a href="media">portfolio</a>
+       
+        </div>
+
+        <!-- ~ CAN YOU HEAR IT? NO YOU CAN'T CUZ YOU'RE IN SPAAAAACE ~ -->
+            
+        <div class="gradient">
+        
+        </div>
+    
+    </div>
+
+    <!-- footer c/ social media links -->
+    <div class="footer">
+        <a href="https://loudvolumecomputer.bandcamp.com/" target="_blank" alt="bandcamp">bandcamp</a>
+        ▪
+        <a href="https://github.com/marcelodesousa" target="_blank"  alt="github">github</a>
+        ▪
+        <a href="https://www.behance.net/marcelodesousa" target="_blank"  alt="behance">behance</a>
+        ▪
+        <a href="https://freesound.org/people/mxrcelv/" target="_blank"  alt="freesound">freesound</a>
+        ▪
+        <a href="https://www.linkedin.com/in/marcelodesousa/" target="_blank"  alt="linkedin">linkedin</a>
+    </div>
+
+</body>
+</html> 
