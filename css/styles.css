@@ -70,6 +70,9 @@ body{
 
 /* -- Portfolio styles ------------------------
 ----------------------------------------------- */
+.blackball {
+    padding-top: 15px;
+}
 
 .projects_grid {
     text-align: left;
