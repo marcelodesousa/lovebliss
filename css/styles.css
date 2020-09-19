@@ -137,6 +137,8 @@ a:hover{
 /* -- Gradientes --------------------
 ----------------------------------------------- */
 .gradient {
+    width: 250px;
+    height: 250px;
     background: rgb(141,10,95);
-    background: radial-gradient(circle, rgba(141,10,95,1) 0%, rgba(201,140,180,1) 49%, rgba(255,255,255,1) 100%); 
+    background: radial-gradient(circle, rgb(141, 10, 95) 0%, rgb(214, 104, 177) 45%, rgba(255,255,255,0) 70%)
 }
