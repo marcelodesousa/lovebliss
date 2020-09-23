@@ -69,6 +69,14 @@ body{
     width: 370px;
 }
 
+.footer img {
+    width: 20px;
+}
+
+.footer a {
+    padding: 15px;
+}
+
 /* -- Portfolio styles ------------------------
 ----------------------------------------------- */
 .blackball {
