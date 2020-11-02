@@ -1,0 +1,25 @@
+.logo {
+    position: absolute;
+    width: 100%;
+    left: 71px;
+    top: 89px;
+}
+
+.logo img {
+    width: 76px;
+    height: 76px;
+}
+
+.h1 {
+    position: absolute;
+    width: 234px;
+    height: 166px;
+    left: 71px;
+    top: 165px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 200%;
+    color: #FFFFFF;
+}
