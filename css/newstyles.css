@@ -1,3 +1,6 @@
+/* LOGO _______________________
+_______________________________ */
+
 .logo {
     position: absolute;
     width: 100%;
@@ -7,19 +10,207 @@
 
 .logo img {
     width: 76px;
-    height: 76px;
 }
 
-.h1 {
+/* Pages ______________________
+_______________________________*/
+
+.container {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background-color: black;
+}
+
+.bio {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #8D0A5F;
+}
+
+.footer {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: white;
+}
+
+.about {
+    position: relative;
+    background: black;
+}
+
+/* Page 1
+_____________________________*/
+
+.container h1 {
     position: absolute;
     width: 234px;
-    height: 166px;
+    height: 103px;
     left: 71px;
-    top: 165px;
-    font-family: Space Mono;
+    top: 145px;
+    font-family: 'Space Mono';
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
-    line-height: 200%;
+    line-height: 206.1%;
+    color: white;
+}
+
+.container h2 {
+    position: absolute;
+    width: 234px;
+    height: 82px;
+    left: 71px;
+    top: 249px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 206.1%;
+    color: white;
+}
+
+.container h3 {
+    position: absolute;
+    width: 234px;
+    height: 41px;
+    left: 71px;
+    top: 280px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 206.1%;
+    color: white;
+}
+
+/* MY FACE ON THE BIG SCREEN 
+_____________________________*/
+
+.dithering img {
+    position: absolute;
+    width: 234px;
+    height: 376px;
+    left: 71px;
+    top: 369px;
+}
+
+.elements img {
+    position: absolute;
+    left: 275px;
+    top: 331px;
+}
+
+.elements p {
+    position: absolute;
+    left: 262px;
+    top: 530px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
     color: #FFFFFF;
+}
+
+/* Second Page
+__________________________ */
+
+.bio h2 {
+    position: absolute;
+    left: 60px;
+    top: 65px;
+    font-family: 'Space Mono';
+    color: white;
+}
+
+.block1 p {
+    position: absolute;
+    left: 60px;
+    top: 140px;
+    width: 255px;
+    font-family: 'Space Mono';
+    font-size: 18px;
+    line-height: 37px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.block2 p {
+    position: absolute;
+    width: 255px;
+    left: 60px;
+    top: 365px;
+    font-family: 'Space Mono';
+    font-size: 18px;
+    line-height: 37px;
+    text-align: left;
+    color: white;
+}
+
+.block2 a {
+    color: white;
+    text-decoration: underline;
+    font-family: 'Space Mono';
+}
+
+.block3 p {
+    position: absolute;
+    width: 255px;
+    left: 60px;
+    top: 560px;
+    font-family: 'Space Mono';
+    font-size: 18px;
+    line-height: 37px;
+    text-align: left;
+    color: black;
+}
+
+.block3 a {
+    color: white;
+    text-decoration: underline;
+    font-family: 'Space Mono';
+}
+
+/* Page 3
+________________________________*/
+
+.research h2 {
+    position: absolute;
+    left: 51px;
+    top: 40px;
+    font-size: 24px;
+    font-family: 'Space Mono';
+    color: black;
+}
+
+.research p {
+    position: absolute;
+    left: 51px;
+    top: 96px;
+    width: 255px;
+    font-family: 'Space Mono';
+    font-size: 14px;
+    line-height: 29px;
+}
+
+.about h2 {
+    position: absolute;
+    width: 255px;
+    top: 501px;
+    left: 56px;
+    font-family: 'Space Mono';
+    font-size: 24px;
+    line-height: 49px;
+    color: white;
+}
+
+.about p{
+    position: absolute;
+    width: 101 px;
+    left: 56px;
+
+    font-family: 'Space Mono';
+    font-size: 18px;
+    line-height: 37px;
+    color: white;
 }
