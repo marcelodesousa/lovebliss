@@ -14,11 +14,11 @@
 .landing {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 95px;
     grid-auto-rows: minmax(auto, auto);
+    
+    gap:95px;
 
-    padding-left: 15rem;
-    padding-right: 15rem;
+    text-align: left;
 }
 
 /* -- Basic styles ----------------------------
@@ -36,18 +36,14 @@ body {
 
 .main {
     background-color: black;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    padding-left: 15rem;
+    padding-right: 15rem;
 }
 
 .about {
     background-color: #8D0A5F;
-}
-
-.landing {
-    text-align: center;
-}
-
-.title {
-    text-align: left;
 }
 
 /* -- Images ----------------------------------
@@ -84,7 +80,7 @@ body {
     font-family: 'Space Mono', monospace;
     font-weight: bold;
     color: white;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 .title p {
