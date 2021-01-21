@@ -2,6 +2,8 @@
 
 /*      rosa framboesa - #8d0a5f                */
 
+/*      rosa pop - #f356bc                      */
+
 /*      roxo amora -     #2b1f3f                */
 
 /* -------------------------------------------- */
@@ -81,7 +83,7 @@ body {
 /* about */
 .about {
     font-family: 'Space Mono', monospace;
-    font-weight: bold;
+    font-weight: normal;
     color:white;
 }
 
@@ -99,11 +101,11 @@ html {
 }
 
 a {
-    color: black;
-    text-decoration: none;
+    color: white;
+    text-decoration: underline;
 }
 
 a:hover {
-    color: #8d0a5f;
-    text-decoration: underline;
+    color: #f356bc;
+    text-decoration:dotted;
 }
