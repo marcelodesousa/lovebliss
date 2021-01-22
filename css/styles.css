@@ -77,33 +77,6 @@ body{
     padding: 15px;
 }
 
-/* -- Portfolio styles ------------------------
------------------------------------------------ */
-.blackball {
-    padding-top: 15px;
-}
-
-.projects_grid {
-    text-align: left;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.thumbnails {
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.thumbnails img {
-    width: 200px;
-    height: 200px;
-}
-
-.thumb_titles {
-    text-align:center;
-}
-
 /* -- Lettering -------------------------------
 ----------------------------------------------- */
 
@@ -146,6 +119,7 @@ a:hover{
 
 /* -- Gradientes --------------------
 ----------------------------------------------- */
+
 .gradient {
     width: 250px;
     height: 250px;
