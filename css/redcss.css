@@ -1,7 +1,6 @@
 /* -- Cores a usar: preto, roxo, rosa, azul. -- */
 
 /*      rosa framboesa - #8d0a5f                */
-
 /*      roxo amora -     #2b1f3f                */
 
 /* -------------------------------------------- */
@@ -14,30 +13,51 @@
 }
 
 /* -- Basic styles ----------------------------
------------------------------------------------ 
+----------------------------------------------- */
 
-body{
-
-}*/
+body { 
+    text-align: center;
+}
 
 .main {
     max-width: 470px;
+    
+    text-align: left;
     font-family: 'Space Mono', monospace;
     font-size: 25px;
     line-height: 1.5em;
+    
+    margin-left: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.menu {
+    width: 100%;
+    text-align: left;
+
+    padding-top: 25px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo {
     width: 100%;
-    padding: 50px 15px 15px 50px;
 }
 
 .logo img {
-    width: 50px;
+    max-width: 50px;
+}
+
+.hamburger {
+    text-align: right;
 }
 
 .moi img {
-    max-width: 300px;
+    max-width: 205px;
     border-radius: 45px;
 }
 
@@ -47,6 +67,14 @@ body{
 
 .buttons .contact {
     padding: 15px;
+}
+
+.arrow {
+    text-align: right;
+}
+
+.blackstar {
+    text-align: right;
 }
 
 ::selection {
