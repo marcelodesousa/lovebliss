@@ -28,45 +28,59 @@ body {
     line-height: 1.5em;
     
     margin-left: 0 auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
     width: 100%;
-    text-align: left;
 
-    padding-top: 25px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-top: 20px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 
     margin-left: auto;
     margin-right: auto;
 }
 
 .logo {
-    width: 100%;
+    text-align: left;
 }
 
 .logo img {
-    max-width: 50px;
+    max-width: 45px;
 }
 
 .hamburger {
     text-align: right;
 }
 
+.moi {
+    padding-top: 50px;
+}
+
 .moi img {
-    max-width: 205px;
+    max-width: 215px;
     border-radius: 45px;
 }
 
-.buttons .work{
-    padding: 15px;
+.about p {
+    font-size: 18px;
+    max-width: 240px;
 }
 
-.buttons .contact {
-    padding: 15px;
+.buttons {
+    display: grid;
+    gap: 10px;
+
+    padding-top: 10px;
+}
+
+.buttons img {
+    max-width: 15px;
 }
 
 .arrow {
@@ -94,8 +108,6 @@ a {
 }
 
 .blackstar {
-    font-family: 'Roboto', sans-serif;
-    font-size: 48px;
 }
 
 /* -- Links -----------------------------------
@@ -111,10 +123,12 @@ a:hover {
 }
 
 .buttons a {
+    font-size: 22px;
+
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.15);
-    border-radius: 25px;
-    padding: 10px 50px 10px 50px;
+    border-radius: 30px;
+    padding: 5px 25px 5px 25px;
 }
 
 .buttons a:hover {
