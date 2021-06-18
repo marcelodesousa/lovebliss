@@ -45,6 +45,10 @@ body{
     width: 100%;
 }
 
+.menu a {
+    padding: 10px;
+}
+
 .main {
     padding-left: 1rem;
     padding-right: 1rem;
