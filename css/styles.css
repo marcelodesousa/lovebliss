@@ -92,18 +92,21 @@ h3 {
     padding-top: 1rem;
     width: 80%;
     margin: 0 auto;
+    line-height: 200%;
+}
+
+.research {
+    padding-top: 1rem;
 }
 
 .title {
     font-size: 24px;
-    line-height: 150%;
 }
 
 /* -- Links -----------------------------------
 ----------------------------------------------- */
 a{
     color: white;
-    font-family: 'DM Serif Display', serif;
     text-decoration: none;
 }
 
