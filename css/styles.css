@@ -89,12 +89,12 @@ body{
 ----------------------------------------------- */
 
 html{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cabin', sans-serif;
     color: white;
 }
 
 h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cabin', sans-serif;
     text-align: left;
 }
 
@@ -111,7 +111,7 @@ h3 {
 ----------------------------------------------- */
 a{
     color: white;
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'DM Serif Display', serif;
     text-decoration: none;
 }
 
