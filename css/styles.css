@@ -88,9 +88,9 @@ h3 {
 }
 
 .about {
-    text-align: left;
+    text-align: justify;
     padding-top: 1rem;
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     line-height: 200%;
 }
@@ -113,14 +113,4 @@ a{
 a:hover{
     color: #8d0a5f;
     text-decoration: underline;
-}
-
-/* -- Gradientes --------------------
------------------------------------------------ */
-
-.gradient {
-    width: 250px;
-    height: 250px;
-    background: rgb(141,10,95);
-    background: radial-gradient(circle, rgb(141, 10, 95) 0%, rgb(214, 104, 177) 45%, rgba(255,255,255,0) 70%)
 }
