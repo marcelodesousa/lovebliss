@@ -77,13 +77,13 @@ html{
     color: white;
 }
 
-h3 {
-    font-family: 'Cabin', sans-serif;
+.keywords {
     text-align: left;
+    font-size: 20px;
 }
 
 .about {
-    text-align: justify;
+    text-align: left;
     padding-top: 1rem;
     width: 85%;
     margin: 0 auto;
@@ -101,11 +101,11 @@ h3 {
 /* -- Links -----------------------------------
 ----------------------------------------------- */
 a{
-    color: white;
+    color: #CA5010;
     text-decoration: none;
 }
 
 a:hover{
-    color: #8d0a5f;
+    color: white;
     text-decoration: underline;
 }
