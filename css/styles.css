@@ -1,19 +1,26 @@
 /* --- Cores ------------------------------- -- */
 
+
 /*      rosa framboesa - #8d0a5f                */
+
+
 /*      roxo amora -     #2b1f3f                */
+
+
 /*      laranja caril -  #CA5010                */
 
+
 /* -------------------------------------------- */
+
 
 /* -- Basic styles ----------------------------
 ----------------------------------------------- */
 
 html {
-    background-color: black;
+    background-color: rgb(10, 10, 10);
 }
 
-body{
+body {
     text-align: center;
     height: 100%;
     width: 100%;
@@ -21,16 +28,14 @@ body{
     padding: 0;
     font-size: 1.2rem;
     word-spacing: 0.02em;
-    line-height: 1.7rem;
-
 }
 
 .logo {
     width: 100%;
-    padding: 45px 0px 15px 0px;
+    padding: 36px 0px 10px 0px;
 }
 
-.logo img{
+.logo img {
     width: 50px;
     height: 50px;
 }
@@ -38,7 +43,6 @@ body{
 .main {
     padding-left: 1rem;
     padding-right: 1rem;
-
     margin-left: auto;
     margin-right: auto;
     max-width: 60rem;
@@ -49,17 +53,29 @@ body{
     color: white;
 }
 
+
 /* -- Lettering -------------------------------
 ----------------------------------------------- */
 
-html{
+html {
     font-family: 'Cabin', sans-serif;
     color: white;
 }
 
 .keywords {
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding-right: 24px;
 }
 
 .about {
@@ -67,21 +83,27 @@ html{
     padding-top: 1rem;
     width: 85%;
     margin: 0 auto;
-    line-height: 200%;
 }
 
 .title {
     font-size: 24px;
 }
 
+.title h3 {
+    font-size: 24px;
+    line-height: 150%;
+}
+
+
 /* -- Links -----------------------------------
 ----------------------------------------------- */
-a{
+
+a {
     color: #CA5010;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     color: white;
     text-decoration: underline;
 }
