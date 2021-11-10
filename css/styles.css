@@ -58,11 +58,12 @@ body {
 ----------------------------------------------- */
 
 html {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: white;
 }
 
 .keywords {
+    color: #CA5010;
     text-align: left;
     font-size: 18px;
 }
@@ -101,9 +102,11 @@ li {
 a {
     color: #CA5010;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
     color: white;
     text-decoration: underline;
+    transition: all 350ms ease;
 }
