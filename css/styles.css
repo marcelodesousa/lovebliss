@@ -50,7 +50,7 @@ body {
 
 ::selection {
     background-color: #CA5010;
-    color: black;
+    color: white;
 }
 
 
@@ -115,7 +115,7 @@ a {
 }
 
 a:hover {
-    color: white;
+    color: black;
     text-decoration: underline;
     transition: all 350ms ease;
 }
