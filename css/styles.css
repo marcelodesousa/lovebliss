@@ -43,6 +43,7 @@ body {
 .main {
     padding-left: 1rem;
     padding-right: 1rem;
+    margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
     max-width: 60rem;
@@ -96,11 +97,11 @@ li {
     font-weight: normal;
 }
 
-.contact {
-    padding-top: 1rem;
+.contact p {
+   font-size: 1rem;
 }
 
-.contact p {
+.footer {
     padding-top: 1rem;
 }
 
@@ -112,6 +113,7 @@ a {
     color: #CA5010;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1rem;
 }
 
 a:hover {
