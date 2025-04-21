@@ -1,84 +1,37 @@
-/* --- Cores ------------------------------- -- */
-
-
-/*      rosa framboesa - #8d0a5f                */
-
-
-/*      roxo amora -     #2b1f3f                */
-
-
-/*      laranja caril -  #CA5010                */
-
-
-/* -------------------------------------------- */
-
-
-/* -- Basic styles ----------------------------
------------------------------------------------ */
-
 html {
+    --highlight-color: #0037BE;
     background-color: #FDFDFD;
+    font-family: 'Inter', sans-serif;
+    color: #1C1C1C;
 }
 
 body {
-    text-align: center;
+    text-align: left;
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
-    font-size: 1.2rem;
-    word-spacing: 0.02em;
-}
-
-.logo {
-    width: 100%;
-    padding: 36px 0px 10px 0px;
-}
-
-.logo img {
-    width: 50px;
-    height: 50px;
+    font-size: 1rem;
+    word-spacing: 0.05em;
 }
 
 .main {
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-top: 1rem;
+    margin-top: 4rem;
     margin-left: auto;
     margin-right: auto;
     max-width: 60rem;
 }
 
 ::selection {
-    background-color: #CA5010;
+    background-color: var(--highlight-color);
     color: white;
 }
 
 
-/* -- Lettering -------------------------------
+/* -- Typography -------------------------------
 ----------------------------------------------- */
-
-html {
-    font-family: 'Inter', sans-serif;
-    color: #1C1C1C;
-}
-
-.keywords {
-    color: #CA5010;
-    text-align: left;
-    font-size: 18px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    display: inline;
-    padding-right: 24px;
-}
 
 .about {
     text-align: left;
@@ -86,14 +39,16 @@ li {
     width: 85%;
     margin: 0 auto;
 }
-
 .title {
-    font-size: 24px;
+    font-size: 1rem;
+    color:#0037BE;
 }
 
-.title h4 {
-    font-size: 24px;
-    line-height: 150%;
+.description h2 {
+    font-weight: normal;
+}
+
+.description h3 {
     font-weight: normal;
 }
 
@@ -101,19 +56,23 @@ li {
     padding-top: 1rem;
 }
 
+.about strong {
+    color:#0037BE;
+}
+
 
 /* -- Links -----------------------------------
 ----------------------------------------------- */
 
 a {
-    color: #CA5010;
+    color: #0037BE;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1rem;
 }
 
 a:hover {
     color: black;
     text-decoration: underline;
     transition: all 350ms ease;
+    transition: color 350ms ease;
 }
